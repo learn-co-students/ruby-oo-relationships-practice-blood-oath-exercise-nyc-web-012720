@@ -57,7 +57,7 @@ class Cult
     end
 
     def self.least_popular
-        Cult.all.max {|cult| cult.cult_population}
+        Cult.all.max_by {|cult| cult.cult_population}
     end
 
     def self.most_common_loc
