@@ -12,7 +12,7 @@ class Bloodoath
     end
 
     def self.first_oath
-        
+        #
     end
     
     def self.all
